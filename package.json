@@ -16,5 +16,8 @@
   "license": "ISC",
   "dependencies": {
     "vuepress": "^1.8.0"
+  },
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3"
   }
 }

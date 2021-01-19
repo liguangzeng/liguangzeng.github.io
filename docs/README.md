@@ -1,3 +1,4 @@
+---
 home: true
 heroImage: /mine.jpg
 heroText: 我的博客
@@ -12,15 +13,4 @@ features:
 - title: 高性能
   details: VuePress 为每个页面预渲染生成静态的 HTML
 footer: MIT Licensed | Copyright © 2018-present Evan You
-
-
-
- ```js
- export default {
-    data(){
-        return {
-            msg:"HightLight"
-        }
-    }
- }
- ```
+---
