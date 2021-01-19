@@ -8,13 +8,15 @@ module.exports = {
     serviceWorker: true, // 是否开启 PWA
     base: '/', // 这是部署到github相关的配置 
     markdown:{lineNumber:false},
-    themeConfig:{
-        nva:[
-            {text:"前端基础",link:'/accumulate/'},
-            {text:"算法题库",link:'/algorithm/'},
-            {text:"微博",link:'https://baidu.com'},
+    themeConfig: {
+        nav: [
+            { text: 'Home', link: '/' },
+            { text: 'Guide', link: '/guide/' },
+            { text: 'External', link: 'https://google.com' },
         ],
-        sidebar:"auto",
-        sidebarDepth:2
+        sidebar: [
+            { title: 'Foo', path: '/foo' },
+            { title: 'Bar', path: '/bar' }
+        ]
     }
 };
