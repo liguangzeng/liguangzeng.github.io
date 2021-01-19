@@ -6,7 +6,7 @@ module.exports = {
         ['link',{rel:"icon",href:"/img/favicon.ico"}]// 增加一个自定义的 favicon(网页标签的图标)
     ],
     serviceWorker: true, // 是否开启 PWA
-    base: '/', // 这是部署到github相关的配置
+    base: '/', // 这是部署到github相关的配置 
     markdown:{lineNumber:false},
     themeConfig:{
         nva:[
