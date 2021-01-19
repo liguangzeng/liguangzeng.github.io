@@ -22,10 +22,6 @@ module.exports = {
             { text: 'Home', link: '/' },
             { text: 'Guide', link: '/guide/' },
             { text: 'External', link: 'https://google.com' },
-        ],
-        sidebar: [
-            { title: 'Foo', path: '/foo' },
-            { title: 'Bar', path: '/bar' }
         ]
     }
 };
