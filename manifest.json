@@ -6,7 +6,7 @@
   "background_color": "#2196f3",
   "description": "lgz的个人主页",
   "theme_color": "blue",
-  "base":"/",
+  "base":"/", 
   "icons": [
     {
       "src": "./photo.jpg",
