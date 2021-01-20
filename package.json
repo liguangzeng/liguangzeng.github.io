@@ -18,6 +18,8 @@
     "vuepress": "^1.8.0"
   },
   "devDependencies": {
-    "@vuepress/theme-blog": "^2.3.3"
+    "@vuepress/theme-blog": "^2.3.3",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
   }
 }
